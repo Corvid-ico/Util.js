@@ -37,10 +37,9 @@ exports.getRandomIntList = (list, size, min, max, rule) => {
   return list;
 }
 
-exports.ZeroOutList = (index) => {
-  array = [];
+exports.ZeroOutList = (array, index) => {
   for (var i = 0; i < index; i++) {
-    array.push(0)
+    array[i] = 0
   }
   return array;
 }
