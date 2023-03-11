@@ -36,3 +36,11 @@ exports.getRandomIntList = (list, size, min, max, rule) => {
   }
   return list;
 }
+
+exports.ZeroOutList = (index) => {
+  array = [];
+  for (var i = 0; i < index; i++) {
+    array.push(0)
+  }
+  return array;
+}
